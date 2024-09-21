@@ -1,0 +1,33 @@
+.metallic-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-radius: 30px; /* Similar a rounded-3xl */
+  background: linear-gradient(
+    45deg,
+    #050505 5%,
+    /* Muy cercano al negro */ #0f0f0f 10%,
+    #1c1c1c 30%,
+    #3a3737 50%,
+    #1c1c1c 70%,
+    #0f0f0f 80%,
+    #050505 95%
+  ); /* Gradiente con más contraste, pero aún oscuro */
+  border: 2px solid black;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8); /* Sombra oscura, pero no total */
+  transition: all 0.3s ease-in-out;
+}
+
+.octagon {
+  clip-path: polygon(
+    30% 0%,
+    /* Arriba izquierda */ 70% 0%,
+    /* Arriba derecha */ 100% 30%,
+    /* Derecha arriba */ 100% 70%,
+    /* Derecha abajo */ 70% 100%,
+    /* Abajo derecha */ 30% 100%,
+    /* Abajo izquierda */ 0% 70%,
+    /* Izquierda abajo */ 0% 30% /* Izquierda arriba */
+  );
+}

@@ -2,13 +2,13 @@
 
 function HomePage() {
   return (
-    <div className="h-screen bg-gradient-to-r from-[#F5F5F5] via-[#DCDCDC] to-[#E0E0E0] p-12 pt-20">
+    <div className="h-screen bg-white p-12 pt-20">
       <div className="relative h-full">
-        <div className="absolute top-4 left-4 w-7 h-7 bg-white rounded-full shadow-black shadow-xl"></div>
-        <div className="absolute top-4 right-4 w-7 h-7 bg-white rounded-full shadow-black shadow-xl"></div>
-        <div className="absolute bottom-4 left-4 w-7 h-7 bg-white rounded-full shadow-black shadow-xl"></div>
-        <div className="absolute bottom-4 right-4 w-7 h-7 bg-white rounded-full shadow-black shadow-xl"></div>
-        <div className="flex h-full items-center justify-center bg-white rounded-3xl border-black shadow-2xl bg-gradient-to-r from-[#333333] to-black ">
+        <div className="absolute top-4 left-4 w-7 h-7 bg-white rounded-full shadow-black shadow-xl border-4 border-gray-300"></div>
+        <div className="absolute top-4 right-4 w-7 h-7 bg-white rounded-full shadow-black shadow-xl border-4 border-gray-300"></div>
+        <div className="absolute bottom-4 left-4 w-7 h-7 bg-white rounded-full shadow-black shadow-xl border-4 border-gray-300"></div>
+        <div className="absolute bottom-4 right-4 w-7 h-7 bg-white rounded-full shadow-black shadow-xl border-4 border-gray-300"></div>
+        <div className="flex h-full items-center justify-cente rounded-3xl border-black shadow-2xl bg-gradient-to-r from-gray-800 to-black">
           <div className="flex flex-col items-center justify-center p-6">
             <h1 className="text-5xl font-bold font-mono tracking-wide text-white m-2">Hola, mi nombre es Mauricio Furniel Campos</h1>
             <h2 className="text-2xl text-white font-mono tracking-wide m-1">Ingeniero Civil Informatico</h2>
@@ -23,6 +23,7 @@ function HomePage() {
               Sobre mí
             </button>
           </div>
+
         </div>
       </div>
     </div>

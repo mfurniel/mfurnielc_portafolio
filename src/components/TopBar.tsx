@@ -2,7 +2,7 @@
 
 function TopBar() {
   return (
-    <div className="flex fixed top-0 left-0 w-full bg-gradient-to-r from-[#333333] to-black p-4 shadow-lg z-50 justify-between items-center">
+    <div className="flex fixed top-0 left-0 w-full bg-gradient-to-r from-gray-800 to-black p-4 shadow-lg z-50 justify-between items-center">
       <h1 className="text-white text-2xl">Mi Portafolio</h1>
 
       <div className="flex space-x-8">
