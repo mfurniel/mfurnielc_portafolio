@@ -3,7 +3,7 @@
 
 function ProjectsPage() {
   return (
-    <div className="h-screen bg-gradient-to-r from-[#F5F5F5] via-[#DCDCDC] to-[#E0E0E0] p-12">
+    <div id='portfolio' className="h-screen bg-gradient-to-r from-[#F5F5F5] via-[#DCDCDC] to-[#E0E0E0] p-12">
       <div className="relative h-full">
         <div className="absolute top-4 left-4 w-7 h-7 bg-white rounded-full shadow-black shadow-xl"></div>
         <div className="absolute top-4 right-4 w-7 h-7 bg-white rounded-full shadow-black shadow-xl"></div>

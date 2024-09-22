@@ -1,35 +1,42 @@
-// import PropTypes from 'prop-types'
+// import React from 'react';
+import CustomCarousel from '../components/Home/CustomCarousel';
+
 
 function HomePage() {
   return (
-    <div className="h-screen bg-white p-12 pt-20">
-      <div className="relative h-full">
-        <div className="absolute top-4 left-4 w-7 h-7 bg-white rounded-full shadow-black shadow-xl border-4 border-gray-300"></div>
-        <div className="absolute top-4 right-4 w-7 h-7 bg-white rounded-full shadow-black shadow-xl border-4 border-gray-300"></div>
-        <div className="absolute bottom-4 left-4 w-7 h-7 bg-white rounded-full shadow-black shadow-xl border-4 border-gray-300"></div>
-        <div className="absolute bottom-4 right-4 w-7 h-7 bg-white rounded-full shadow-black shadow-xl border-4 border-gray-300"></div>
-        <div className="flex h-full items-center justify-cente rounded-3xl border-black shadow-2xl bg-gradient-to-r from-gray-800 to-black">
-          <div className="flex flex-col items-center justify-center p-6">
-            <h1 className="text-5xl font-bold font-mono tracking-wide text-white m-2">Hola, mi nombre es Mauricio Furniel Campos</h1>
-            <h2 className="text-2xl text-white font-mono tracking-wide m-1">Ingeniero Civil Informatico</h2>
-            <h2 className="text-xl text-white font-mono tracking-wide m-1">Universidad de Concepción</h2>
+    <div id="home" className="flex justify-end h-screen w-full p-6 bg-slate-200">
+      <div className="flex justify-end h-full w-full border-2 bg-white border-double border-black">
+        <div className="flex flex-col justify-center h-full w-2/3 pl-8">
+          <h1 className="text-5xl font-semibold">Hola, mi nombre es:</h1>
+          <h1 className="text-5xl font-bold mb-2">Mauricio Furniel Campos</h1>
+          <div className="flex items-center">
+            <h2 className="text-2xl mr-2">Ingeniero Civil Informático</h2>
+            <img src='src/assets/icons/personIcon.svg' className="h-12" />
+          </div>
+          <div className="flex items-center">
             <img
               src="https://normasgraficas.udec.cl/sites/default/files/escudoof.gif"
               alt="Descripción de la imagen"
-              className="m-4 h-20"
+              className="h-8"
             />
-            <p className="text-white font-mono text-center text-md w-2/3">Soy Ingeniero Civil Informático titulado por la Universidad de Concepción, con un enfoque en el desarrollo de software, tanto en el ámbito mobile como web. A lo largo de mi formación y experiencia, he adquirido habilidades técnicas y profesionales relevantes, y mi pasión por este campo me impulsa a seguir explorando y creciendo en un entorno laboral.</p>
-            <button className="w-32 rounded-2xl text-lg font-mono tracking-wide text-white border-2 border-white px-4 py-2 shadow-lg mt-10">
-              Sobre mí
-            </button>
+            <h3 className="text-xl ml-2">Universidad de Concepción</h3>
           </div>
-
+          <button className="bg-principalBlue text-white font-bold py-2 px-4 rounded-xl w-44 m-3 shadow-md hover:shadow-2xl transition-shadow duration-300 ease-in-out">
+            Descarga mi CV</button>
+          <div className='flex gap-4 pt-2 w-44'>
+            <a href="https://www.linkedin.com/in/mauricio-furniel/" target="_blank" rel="noopener noreferrer">
+              <img src='src/assets/icons/linkedinRoundIcon.svg' className="h-8 shadow-lg rounded-full hover:shadow-2xl" alt="LinkedIn Icon" />
+            </a>
+            <a href="https://github.com/mfurniel" target="_blank" rel="noopener noreferrer">
+              <img src='src/assets/icons/githubBlueIcon.svg' className="h-8 shadow-lg rounded-full hover:shadow-2xl" alt="GitHub Icon" />
+            </a>
+          </div>
         </div>
+
+        <CustomCarousel />
       </div>
     </div>
-  )
+  );
 }
 
-// HomePage.propTypes = {}
-
-export default HomePage
+export default HomePage;
