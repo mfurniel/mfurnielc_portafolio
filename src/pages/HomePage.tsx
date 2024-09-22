@@ -1,6 +1,8 @@
 // import React from 'react';
 import CustomCarousel from '../components/Home/CustomCarousel';
-
+import PersonIcon from '../assets/icons/personIcon.svg';
+import LinkedInIcon from '../assets/icons/linkedinRoundIcon.svg';
+import GitHubIcon from '../assets/icons/githubBlueIcon.svg';
 
 function HomePage() {
   return (
@@ -11,7 +13,7 @@ function HomePage() {
           <h1 className="text-5xl font-bold mb-2">Mauricio Furniel Campos</h1>
           <div className="flex items-center">
             <h2 className="text-2xl mr-2">Ingeniero Civil Informático</h2>
-            <img src='src/assets/icons/personIcon.svg' className="h-12" />
+            <img src={PersonIcon} className="h-12" />
           </div>
           <div className="flex items-center">
             <img
@@ -25,10 +27,10 @@ function HomePage() {
             Descarga mi CV</button>
           <div className='flex gap-4 pt-2 w-44'>
             <a href="https://www.linkedin.com/in/mauricio-furniel/" target="_blank" rel="noopener noreferrer">
-              <img src='src/assets/icons/linkedinRoundIcon.svg' className="h-8 shadow-lg rounded-full hover:shadow-2xl" alt="LinkedIn Icon" />
+              <img src={LinkedInIcon} className="h-8 shadow-lg rounded-full hover:shadow-2xl" alt="LinkedIn Icon" />
             </a>
             <a href="https://github.com/mfurniel" target="_blank" rel="noopener noreferrer">
-              <img src='src/assets/icons/githubBlueIcon.svg' className="h-8 shadow-lg rounded-full hover:shadow-2xl" alt="GitHub Icon" />
+              <img src={GitHubIcon} className="h-8 shadow-lg rounded-full hover:shadow-2xl" alt="GitHub Icon" />
             </a>
           </div>
         </div>
