@@ -14,6 +14,8 @@ function SideBar() {
         <div className="h-[1px] w-full bg-white"></div>
         <h3 className="text-white text-sm"><a href="#skill" className="hover:underline">HABILIDADES</a></h3>
         <div className="h-[1px] w-full bg-white"></div>
+        <h3 className="text-white text-sm"><a href="#education" className="hover:underline">EDUCACIÓN</a></h3>
+        <div className="h-[1px] w-full bg-white"></div>
         <h3 className="text-white text-sm"><a href="#experience" className="hover:underline">EXPERIENCIA</a></h3>
         <div className="h-[1px] w-full bg-white"></div>
         {/* <h3 className="text-white text-sm">EXPERIENCIA LABORAL</h3>

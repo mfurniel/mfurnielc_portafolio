@@ -2,10 +2,11 @@
 import SideBar from './components/SideBar'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
+import EducationPage from './pages/EducationPage'
 import ExperiencePage from './pages/ExperiencePage'
 import FooterSection from './pages/FooterSection'
 import HomePage from './pages/HomePage'
-// import ProjectsPage from './pages/ProjectsPage'
+import ProjectsPage from './pages/ProjectsPage'
 
 function App() {
 
@@ -15,8 +16,9 @@ function App() {
       <div className="flex flex-col w-full">
         <HomePage />
         <AboutPage />
+        <EducationPage />
         <ExperiencePage />
-        {/* <ProjectsPage /> */}
+        <ProjectsPage />
         <ContactPage />
         <FooterSection />
       </div>

@@ -1,4 +1,3 @@
-// import React from 'react';
 import CustomCarousel from '../components/Home/CustomCarousel';
 import PersonIcon from '../assets/icons/personIcon.svg';
 import LinkedInIcon from '../assets/icons/linkedinRoundIcon.svg';
