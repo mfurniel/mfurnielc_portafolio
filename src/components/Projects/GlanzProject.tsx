@@ -4,7 +4,7 @@ import GlanzImage from '../../assets/downloadImagePS.png'
 function GlanzProject() {
   return (
 
-    <div className="bg-[#674d8a] rounded-lg p-8 text-white flex items-center justify-between ">
+    <div className="bg-[#674d8a] h-full rounded-lg p-8 text-white flex items-center justify-between">
       <div>
         <h2 className="text-2xl font-bold mb-4">Download Glanz on the Play Store</h2>
         <p className="mb-6">

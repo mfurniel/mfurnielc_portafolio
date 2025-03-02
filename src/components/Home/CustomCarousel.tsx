@@ -23,13 +23,13 @@ const CustomCarousel = () => {
   }, []);
 
   return (
-    <div className="relative h-full w-1/3 border-l-2 border-black">
+    <div className=" relative h-full w-1/3 border-l-2 border-black hidden md:block">
       <div
         className={`h-full w-full bg-cover bg-center transition-opacity duration-500 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}
         style={{
           backgroundImage: `url(${images[currentIndex].url})`,
           backgroundColor: '#4A90E2',
-          backgroundBlendMode: 'multiply', // Aplicar el color sobre la imagen
+          backgroundBlendMode: 'multiply',
           filter: 'brightness(150%)',
         }}
       ></div>

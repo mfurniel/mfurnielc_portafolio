@@ -1,7 +1,7 @@
 
 import SideBar from './components/SideBar'
 import AboutPage from './pages/AboutPage'
-import ContactPage from './pages/ContactPage'
+// import ContactPage from './pages/ContactPage'
 import EducationPage from './pages/EducationPage'
 import ExperiencePage from './pages/ExperiencePage'
 import FooterSection from './pages/FooterSection'
@@ -11,15 +11,15 @@ import ProjectsPage from './pages/ProjectsPage'
 function App() {
 
   return (
-    <div className="flex ">
+    <div className="md:flex">
       <SideBar />
-      <div className="flex flex-col w-full">
+      <div className="flex flex-col w-full bg-red-950">
         <HomePage />
         <AboutPage />
         <EducationPage />
         <ExperiencePage />
         <ProjectsPage />
-        <ContactPage />
+        {/*<ContactPage />*/}
         <FooterSection />
       </div>
     </div>
